@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "description": "my resume",
   "author": "abhishek",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "grunt test",
     "build": "grunt build",
     "all": "npm run build && npm run test",
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "construx": "^1.0.0",
