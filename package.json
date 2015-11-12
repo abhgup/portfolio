@@ -6,9 +6,10 @@
   "main": "server.js",
   "scripts": {
     "test": "grunt test",
-    "build": "grunt build",
+    "build": "grunt build --force",
     "all": "npm run build && npm run test",
-    "start": "node server.js"
+    "start": "node server.js",
+    "postinstall": "grunt build --force"
   },
   "dependencies": {
     "construx": "^1.0.0",
