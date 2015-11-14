@@ -3,11 +3,13 @@
   "version": "0.1.0",
   "description": "my resume",
   "author": "abhishek",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "grunt test",
-    "build": "grunt build",
-    "all": "npm run build && npm run test"
+    "build": "grunt build --force",
+    "all": "npm run build && npm run test",
+    "start": "node server.js",
+    "postinstall": "grunt build --force"
   },
   "dependencies": {
     "construx": "^1.0.0",
