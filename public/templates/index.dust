@@ -174,7 +174,7 @@
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <p>Click on the link below to view or download my resume.</p>
                     <br/>
-                    <a href="img/Resume-Ayushi.pdf" class="btn btn-lg btn-outline">
+                    <a href="img/abhishek-resume.pdf" class="btn btn-lg btn-outline">
                         <i class="fa fa-download"></i> My Resume
                     </a>
                 </div>
@@ -213,7 +213,7 @@
                         </div>
                         <div class="row control-group">
                             <div class="col-xs-12">
-                                <p><b>LinkedIn: &nbsp;&nbsp;&nbsp;</b><a href="#" target="blank">Abhishek</a>
+                                <p><b>LinkedIn: &nbsp;&nbsp;&nbsp;</b><a href="https://in.linkedin.com/in/abhishek-gupta-1569713b" target="blank">Abhishek Gupta</a>
                                 <!-- <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
                                 <p class="help-block text-danger"></p> -->
                             </div>
@@ -243,7 +243,7 @@
         <div class="footer-above">
             <div class="container">
                 <div class="row">
-                    <div class="footer-col col-md-4">
+                    <div class="footer-col col-md-6">
                         <h3>Location</h3>
                         <p>Bangalore</p>
                     </div>
@@ -267,7 +267,7 @@
                             </li>
                         </ul>
                     </div> -->
-                    <div class="footer-col col-md-4">
+                    <div class="footer-col col-md-6">
                         <h3>About Freelancer</h3>
                         <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
                     </div>
@@ -771,46 +771,6 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/freelancer.js"></script>
-    <script>
-    $(document).ready(function(){
-        
-        function noop(e) {
-          e.stopPropagation();
-          e.preventDefault();
-        }
-
-        $('#submitForm').on('click', function(e){
-            noop(e);
-            var csrf = $('#csrf').val(),
-                name = $('#name').val(),
-                email = $('#email').val(),
-                phone = $('#phone').val(),
-                message = $('#message').val();
-
-            var formData = new FormData();
-            formData.append('_csrf', csrf);
-            formData.append('name', name);
-            formData.append('email', email);
-            formData.append('phone', phone);
-            formData.append('message', message);
-
-            $.ajax({
-                url: '/sendEmail',
-                type: 'POST',
-                data: formData,
-                processData: false, 
-                contentType: false, 
-            }).done(function (result) {
-                if (result) {
-                  alert("Your mail has been successsfully delivered");
-                } else {
-                  alert("We are having trouble processing you reauest. Please try again later");
-                }
-            });
-
-        });
-    });
-    </script>
 
 </body>
 
