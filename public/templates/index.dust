@@ -78,7 +78,7 @@
                     <div class="intro-text">
                         <span class="name">Abhishek Gupta</span>
                         <hr class="star-light">
-                        <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
+                        <span class="skills">Programmer Analyst - Data Modeller - Blogger</span>
                     </div>
                 </div>
             </div>
@@ -142,7 +142,7 @@
                                 <i class="fa fa-search-plus fa-3x">Community Service</i>
                             </div>
                         </div>
-                        <img src="img/portfolio/safe.png" class="img-responsive" alt="" style="width: 360px; height: 260px">
+                        <img src="img/csr-main.jpg" class="img-responsive" alt="" style="width: 360px; height: 260px">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -436,7 +436,7 @@
                             	<div class="row">
 	                        		<h3>American International Group , Data Solutions India</h3>
 	                        		<h4>Programmer Analyst (June 2014 - present)</h4>
-	                        			<b>Unified Architecture Team (June 2014 – Present )</b>
+	                        			<b>Enterprise Architecture Team (June 2014 – Present )</b>
 	                        			<ul style="text-align:left">
 	                        				<li>
 	                        					Designed and developed  Enterprise information Modelling using ACORD framework
@@ -670,19 +670,19 @@
 									<!-- Wrapper for slides -->
 									<div class="carousel-inner" role="listbox" style="max-height: 500px">
 									    <div class="item active">
-									      <img src="img/csr.jpg" alt="Chania">
+									      <img src="img/csr.jpg">
 									    </div>
 
 									    <div class="item">
-									      <img src="img/csr2.jpg" alt="Chania">
+									      <img src="img/csr2.jpg">
 									    </div>
 
 									    <div class="item">
-									      <img src="img_flower.jpg" alt="Flower">
+									      <img src="mg/csr3.jpg">
 									    </div>
 
 									    <div class="item">
-									      <img src="img_flower2.jpg" alt="Flower">
+									      <img src="mg/csr4.jpg">
 									    </div>
 								    </div>
 
