@@ -29,11 +29,7 @@ module.exports = function (router) {
     	};
 
     	transporter.sendMail(mailOptions, function(error, info) {
-    		console.log(mailOptions);
-    		console.log("............******....................");
 		    if(error){
-		    	console.log(error);
-		    	console.log("................................");
 		    	result = false;
 		        return result = false;
 		    } else {
